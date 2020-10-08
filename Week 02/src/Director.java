@@ -42,7 +42,7 @@ public class Director {
     public String toString()
     {
         return "Director [ name = "+ this.getName()+", surname ="+this.getSurname()+
-        " Dob = " +this.dateOfBirth.toString()+" Movies Directed = "
+        " Dob = " +this.dateOfBirth.getDate()+" Movies Directed = "
         + this.getNumberOfMovie()+" ]";
     }
 

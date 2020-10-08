@@ -46,4 +46,9 @@ public class Date
         return "[Day ="+this.getDay()+" Month ="+this.getMonth()+" Year ="+this.getYear()+" ]";
     }
 
+    public String getDate()
+    {
+        return String.format("%02d/%02d/%04d",this.day,this.month,this.year);
+    }
+
 }
