@@ -39,10 +39,11 @@ public class Director {
         this.noOfDirectMovie= num;
     }
 
-    public String toString(String name,String surname,Date Dob,int directMovie)
+    public String toString()
     {
-        return "Director [ Name = "+name+" Surname = "+surname+ " Date of birth ="+
-        Dob.toString()+" Number of Movie Directed = " + noOfDirectMovie+" ]";
+        return "Director [ name = "+ this.getName()+", surname ="+this.getSurname()+
+        " Dob = " +this.dateOfBirth.toString()+" Movies Directed = "
+        + this.getNumberOfMovie()+" ]";
     }
 
 }

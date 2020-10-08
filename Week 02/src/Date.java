@@ -41,8 +41,9 @@ public class Date
         this.year =year;
     }
 
-    public String toString(int day,int month,int year)
+    public String toString()
     {
-        return "[Day ="+day+" Month ="+month+" Year ="+year+" ]";
+        return "[Day ="+this.getDay()+" Month ="+this.getMonth()+" Year ="+this.getYear()+" ]";
     }
+
 }
