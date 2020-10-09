@@ -1,6 +1,6 @@
-public class main
+public class Application
 {
-    public static void main(String [] main)
+    public static void main(String [] args)
     {
         // Understanding static  
         IdentifyVariables a = new IdentifyVariables();

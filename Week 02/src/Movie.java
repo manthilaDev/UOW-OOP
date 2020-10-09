@@ -9,7 +9,6 @@ public class Movie
     {
         this.title =title;
         this.category =category;;
-        this.awards =awards;
         this.director =director;
     }
 
